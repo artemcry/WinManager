@@ -311,7 +311,7 @@ void WinManagerPrivate::checkMouseRelease()
         f_moving = false;
     }
     if(resizeRect) {
-        // When constructing #rsrect via the constructor for side snap
+        // When constructing #rect via the constructor for side snap
         // it does not catch mouse events and does not remove itself in the mouseRelese method
         Side s = getDesktopSide(cr);
         if(maximizeSides&s)
